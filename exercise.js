@@ -45,10 +45,8 @@ console.log(yoda);
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
 console.log(waitList);
 
-waitList.shift();
-console.log(waitList);
 
-var nowServing = waitList.shift(0);
+var nowServing = waitList.shift();
 console.log(nowServing);
 
 
@@ -56,7 +54,8 @@ console.log(nowServing);
 
 /*5. Apparently, you didn't do a good job with crowd control in the previous exercise. Kanye just cut in front of everyone!. Add Kanye to the waitList array above. Console.log waitList*/
 
-
+waitList.unshift("kanye");
+console.log(waitList);
 
 
 /*The array.splice() adds and/or removes elements from an array.
