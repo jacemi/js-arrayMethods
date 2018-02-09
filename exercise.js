@@ -89,7 +89,9 @@ console.log(oneLove);
 
 var shoe = ["just", "do", "it"];
 
+var shoeString = shoe.join();
 
+console.log(shoeString);
 
 /*The array.slice() extracts a section of an array and returns a new array.
 array.slice(index start, index end)*/
